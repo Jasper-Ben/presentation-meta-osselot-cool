@@ -14,6 +14,8 @@ colorlinks: true
 
 The content of this presentation is licensed under [Creative Commons BY 4.0](https://creativecommons.org/licenses/by/4.0/) and available at [https://github.com/Jasper-Ben/presentation-meta-osselot-cool](https://github.com/Jasper-Ben/presentation-meta-osselot-cool).
 
+Here, you will also be able to access all links mentioned within the presentation.
+
 Feel free to reuse and share in accordance to the license terms. See the Repository README for more details.
 
 # $ whoami
@@ -79,7 +81,7 @@ Since you are here, you probably already know what these are. If not, here the b
 
 - Useful for purpose-built, embedded devices with limited resources, think POS-system, Printer, Router, `re.compile('smart(?!phone).*')`
 
-- A lot of popular software already packaged (https://layers.openembedded.org/) for OE, well tested and continuously improved by the community
+- A lot of popular software [already packaged](https://layers.openembedded.org/)) for OE, well tested and continuously improved by the community
 
 - Allows developers to focus more on the core functionality of a product and contributing to existing projects rather than reinventing the wheel
 
