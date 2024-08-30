@@ -83,7 +83,7 @@ Since you are here, you probably already know what these are. If not, here the b
 
 - A lot of popular software [already packaged](https://layers.openembedded.org/)) for OE, well tested and continuously improved by the community
 
-- Allows developers to focus more on the core functionality of a product and contributing to existing projects rather than reinventing the wheel
+- Allows developers to focus more on the core functionality of a product and contribute to existing projects where necessary rather than reinventing the wheel
 
 # The "Hidden" Costs of (F)OSS Software
 
