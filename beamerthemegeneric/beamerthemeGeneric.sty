@@ -1,0 +1,46 @@
+% SPDX-License-Identifier:  CC0-1.0
+% general settings
+\usepackage{beamerthemedefault}
+\usepackage{emoji}
+\usepackage{fontspec}
+\defaultfontfeatures{LetterSpace=50}
+\usefonttheme{professionalfonts}
+
+% Verbatim code coloring
+\usepackage{fvextra}
+\DefineVerbatimEnvironment{Highlighting}{Verbatim}{breaklines,commandchars=\\\{\}}
+\definecolor{bgcolor}{HTML}{E0E0E0}
+\let\oldtexttt\texttt%
+\newcommand{\code}[1]{\begingroup\setlength{\fboxsep}{1pt}\colorbox{bgcolor}{\oldtexttt{\hspace*{2pt}\vphantom{A}#1\hspace*{2pt}}}\endgroup}
+\renewcommand{\texttt}[1]{\code{\oldtexttt{#1}}}
+\newcommand{\pagefont}{ \fontsize{4}{6}\selectfont}
+
+% disable "Figure X:" in image caption
+\setbeamertemplate{caption}{\raggedright\insertcaption\par}
+
+% add the footer
+\setbeamertemplate{footline}{%
+    \begin{beamercolorbox}[wd=\textwidth,sep=1em]{headline}
+        \hfill\insertshorttitle© \the\year{} by \insertshortauthor~is based on \href{https://github.com/Jasper-Ben/presentation-meta-osselot-cool}{work} by \href{https://github.com/Jasper-Ben}{Jasper Orschulko} licensed under \href{https://creativecommons.org/licenses/by/4.0/}{CC BY 4.0}%
+        $\vert$~\insertframenumber\hspace*{0.1cm}%
+    \end{beamercolorbox}
+}
+
+% smaller textsize in nested items
+\beamertemplatedotitem%
+
+% frametitle left-aligned, black and bold
+\setbeamerfont{frametitle}{series=\bfseries}
+\setbeamerfont{framesubtitle}{size=\normalsize}
+
+% set margins
+\setbeamersize{text margin left=0.73cm}
+
+% change itemize and enumerations to circles
+\setbeamertemplate{items}[circle]
+
+% turn off navigation symbols
+\setbeamertemplate{navigation symbols}{}
+
+% transparent effects
+\setbeamercovered{transparent}

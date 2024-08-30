@@ -1,0 +1,3 @@
+[submodule "beamerthemeiris"]
+	path = beamerthemeiris
+	url = git@gitlab.devops.defra01.iris-sensing.net:Jasper.Orschulko/beamerthemeiris.git
