@@ -3,7 +3,7 @@
 
 ---
 title: Integrating OSSelot curation data into OpenEmbedded
-subtitle: Presenting [meta-osselot](https://github.com/iris-GmbH/meta-osselot)
+subtitle: Using [meta-osselot](https://github.com/iris-GmbH/meta-osselot) to improve license compliance
 author:
     - Jasper.Orschulko@iris-sensing.com
 aspectratio: 169
