@@ -6,6 +6,10 @@ The content of this presentation is made available under the terms of the [CC BY
 
 Feel free to reuse and share in accordance to the license terms.
 
+## Working with the presentation
+
+The presentation is written in Markdown (`presentation-meta-osselot.md`) with some inline LaTeX. You can modify the source file to your liking and then build it as described below. For more advanced use-cases check the [pandoc](https://pandoc.org/MANUAL.html) and [beamer](https://mirrors.dotsrc.org/ctan/macros/latex/contrib/beamer/doc/beameruserguide.pdf) manuals.
+
 ## Build
 
 ### System requirements
